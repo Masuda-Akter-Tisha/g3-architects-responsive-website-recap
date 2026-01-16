@@ -15,7 +15,7 @@
 }
 /* navbar-styles */
 .navbar{
-    width: 75.62%;
+    width: 75%;
     margin: 0px auto 102px auto;
     display: flex;
     justify-content: space-between;
@@ -39,4 +39,42 @@
     font-size: 18px;
     font-weight: medium;
     color: #424242;
+}
+/* banner-styles */
+.banner{
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+}
+.banner-content{
+    width: 59.86%;
+    margin: 0px auto;
+}
+.banner-heading{
+    font-size: 64px;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 32px;
+}
+.banner-sub-heading{
+    font-size: 16px;
+    font-weight: regular;
+    color: #727272;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.banner-btn button{
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: SemiBold;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+}
+.banner-img img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 45px;
 }
