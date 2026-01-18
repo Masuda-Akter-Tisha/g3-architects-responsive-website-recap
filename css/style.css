@@ -149,6 +149,9 @@
 .brand-name{
     font-size: 1.81rem;
 }
+.banner-content{
+    width: 100%;
+}
 .banner-heading{
     font-size: 2rem;
 }
