@@ -1,19 +1,21 @@
-/* font-styles */
+/* font-related-styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .work-sans{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 400px;
   font-style: normal;
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
-/* header-style */
+/* header-related-style */
 #header{
     background-color: rgba(255, 144, 14, 0.1);
     margin-bottom: 85px;
 }
-/* navbar-styles */
+/* navbar-related-styles */
 .navbar{
     width: 75%;
     margin: 0px auto 102px auto;
@@ -21,54 +23,54 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav-logo{
-    font-size: 45px;
+.brand-name{
+    font-size: 2.81rem;
     font-weight: bold;
     color: #131313;
 }
-.nav-link{
+.nav-links{
     display: flex;
     gap: 50px;
     align-items: center;
 }
-.nav-link li{
+.nav-links .nav-item{
     list-style: none;
 }
-.nav-link a{
+.nav-links .nav-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: medium;
     color: #424242;
 }
-/* banner-styles */
+/* banner-related-styles */
 .banner{
     width: 75%;
     margin: 0px auto;
-    text-align: center;
 }
 .banner-content{
     width: 59.86%;
     margin: 0px auto;
+    text-align: center;
 }
 .banner-heading{
-    font-size: 64px;
+    font-size:4rem;
     font-weight: bold;
     color: #131313;
     margin-bottom: 32px;
 }
 .banner-sub-heading{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: regular;
     color: #727272;
     margin-top: 32px;
     margin-bottom: 32px;
 }
-.banner-btn button{
+.banner-btn{
     border: none;
     border-radius: 8px;
     background-color: #FF900E;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: SemiBold;
     padding: 20px 25px;
     margin-bottom: 50px;
@@ -77,4 +79,17 @@
     width: 100%;
     border-radius: 8px;
     margin-bottom: 45px;
+}
+/* Responsive-media-query*/
+/* small-device */
+@media screen and (max-width:576px) {
+    .navbar{
+    flex-direction: column;
+      }
+    .banner-content{
+    width: 75%;
+} 
+.nav-links{
+    align-items: normal;
+}
 }
